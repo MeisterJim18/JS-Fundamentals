@@ -1,3 +1,5 @@
-if( 0 argument){
-  console.log('No argument');
+if( process.argv){
+  console.log('process.argv');
+} else {
+  console.log('No argument')
 }
